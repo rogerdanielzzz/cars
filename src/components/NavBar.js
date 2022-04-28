@@ -1,4 +1,6 @@
+
 import logo from '../images/vw.png'
+import CartWidget from './CartWidget'
 
 
 const Nav = () => {
@@ -11,7 +13,7 @@ const Nav = () => {
   <li className='menu__bar-link'>Modelos</li>
   <li className='menu__bar-link'>Usados</li>
   <li className='menu__bar-link'>Financiacion</li>
-  
+  <CartWidget/>
   </ul>
 </nav>
   )
